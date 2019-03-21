@@ -59,4 +59,4 @@ def str_demo():
     print(type(s))
     print(a+s)
 if __name__ == '__main__':
-    str_demo()
+    str_demo    ()
