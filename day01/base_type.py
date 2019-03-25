@@ -49,14 +49,15 @@
 
 
 
-def str_demo():
-    a='hello'
-    b=666
+#def str_demo():
+    #a='hello'
+    #b=666
     #下面这一步可省略
-    print('%s%s'%(a,b))
-    s=str(b)
-    print(s)
-    print(type(s))
-    print(a+s)
-if __name__ == '__main__':
-    str_demo    ()
+    #print('%s%s'%(a,b))
+    #s=str(b)
+    #print(s)
+    #print(type(s))
+    #print(a+s)
+#if __name__ == '__main__':
+   # str_demo    ()
+
