@@ -1,19 +1,19 @@
 
-import json
+# import json
 # 声明一个全量 dict 变量 (字典)
 
-adict = {"name":"ysl","pwd":"123456",1:'数字1'}
+# adict = {"name":"ysl","pwd":"123456",1:'数字1'}
 
 # 这是一个字符串 不过他是json 格式 ,也是字典的格式
-adictStr = '{"name":"ysl","pwd":"123456"，"1":"数字1"}'
+# adictStr = '{"name":"ysl","pwd":"123456"，"1":"数字1"}'
 
-def zhuanhuanleixin():
-    print(type(adictStr))
-    dict_str = json.loads(adictStr)
-    print(type(dict_str))
-    print(dict_str['name'])
+# def zhuanhuanleixin():
+#     print(type(adictStr))
+#     dict_str = json.loads(adictStr)
+#     print(type(dict_str))
+#     print(dict_str['name'])
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # print(adict)
     # adict.pop('name')
     # print(adict['name'])
@@ -28,7 +28,16 @@ if __name__ == '__main__':
     # dict --> str
     #dumps = json.dumps(adict)
     #print(type(dumps))
-    loads = json.loads(adictStr)
-    print(type(loads))
-    dumps = json.dumps(loads,ensure_ascii=False)
-    print(dumps)
+    # loads = json.loads(adictStr)
+    # print(type(loads))
+    # dumps = json.dumps(loads,ensure_ascii=False)
+    # print(dumps)
+
+
+
+
+
+# 练习
+
+
+

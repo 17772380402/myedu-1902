@@ -61,3 +61,12 @@
 #if __name__ == '__main__':
    # str_demo    ()
 
+# 字符串拼接: %s
+def str_demo2():
+    a= 'hello '
+    b= 250
+    # print(a+ str(b))
+    print('a 是 : %s;b 是 : %s'%(a,b))
+if __name__ == '__main__':
+    print(str_demo2())
+

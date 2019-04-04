@@ -19,6 +19,14 @@ blist = [7,8,33,2,1,3,4]
      #print(alist[0])
      #print(alist)
 
+def list_update():
+   alist=[9,99,999,999,9999]
+   alist[0]=1
+   print(alist[0])
+   print(alist)
+if __name__ == '__main__':
+    list_update()
+
 #切片操作
 #全局变量blist(不写在方法里面 上面下面中间都OK 但是不可以写在方法里面 且必须跟方法同级！！！)
 #blist=[1,2,3,4,5,6]
@@ -60,6 +68,11 @@ blist = [7,8,33,2,1,3,4]
     #print(alist)
     #取中间的值删除
     #pop_demo(alist)
+
+
+
+
+
 
 
 # 讲列表排序的方法
